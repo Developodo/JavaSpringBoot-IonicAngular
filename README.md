@@ -2,9 +2,9 @@
 Tutorial para montar un servicio Restful con Java (SpringBoot) y un cliente en Ionic
 
 Se requiere un servidor local Mysql con una base de datos denominada api. Existe una única tabla items con los campos:
-id: int, kp y autincrement
-title: varchar(128)
-description: varchar(256)
+1) id: int, kp y autincrement
+2) title: varchar(128)
+3) description: varchar(256)
 
 El backend es un proyecto Netbeans. Requiere la actualización del archivo application.properties con las configuración de la conexión a la base de datos. Para ejecutar la aplicación y desplegar el servicio solo se requiere la ejecución del mismo. Automáticamente, se el endpoint http://localhost:8080/item estará disponible. Las acciones son:
 1) Petición GET a http://localhost:8080/item para mostrar todos los items
